@@ -90,6 +90,5 @@ public class TestConfig implements CommandLineRunner{
 		o1.setPayment(pay1);
 	
 		orderRepository.save(o1);
-
 	}
 }
